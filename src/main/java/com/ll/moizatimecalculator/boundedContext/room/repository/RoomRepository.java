@@ -1,7 +1,7 @@
-package com.ll.MOIZA.boundedContext.room.repository;
+package com.ll.moizatimecalculator.boundedContext.room.repository;
 
 
-import com.ll.MOIZA.boundedContext.room.entity.Room;
+import com.ll.moizatimecalculator.boundedContext.room.entity.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

@@ -1,7 +1,7 @@
-package com.ll.MOIZA.boundedContext.selectedTime.entity;
+package com.ll.moizatimecalculator.boundedContext.selectedTime.entity;
 
-import com.ll.MOIZA.base.entity.BaseEntity;
-import com.ll.MOIZA.boundedContext.room.entity.EnterRoom;
+import com.ll.moizatimecalculator.base.entity.BaseEntity;
+import com.ll.moizatimecalculator.boundedContext.room.entity.EnterRoom;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;

@@ -1,12 +1,13 @@
-package com.ll.MOIZA.boundedContext.room.repository;
+package com.ll.moizatimecalculator.boundedContext.room.repository;
 
-import com.ll.MOIZA.boundedContext.member.entity.Member;
-import com.ll.MOIZA.boundedContext.room.entity.EnterRoom;
-import com.ll.MOIZA.boundedContext.room.entity.Room;
-import java.util.List;
+import com.ll.moizatimecalculator.boundedContext.member.entity.Member;
+import com.ll.moizatimecalculator.boundedContext.room.entity.EnterRoom;
+import com.ll.moizatimecalculator.boundedContext.room.entity.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
-import java.util.Optional;
 import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
+import java.util.Optional;
 
 public interface EnterRoomRepository extends JpaRepository<EnterRoom, Long> {
     Optional<EnterRoom> findByRoomAndMember(Room room, Member member);

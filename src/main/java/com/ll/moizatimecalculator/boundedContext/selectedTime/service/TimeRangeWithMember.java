@@ -1,6 +1,5 @@
-package com.ll.MOIZA.boundedContext.selectedTime.service;
-
-import com.ll.MOIZA.boundedContext.member.entity.Member;
+package com.ll.moizatimecalculator.boundedContext.selectedTime.service;
+import com.ll.moizatimecalculator.boundedContext.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

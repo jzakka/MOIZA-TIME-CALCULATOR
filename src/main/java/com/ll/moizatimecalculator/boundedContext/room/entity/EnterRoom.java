@@ -1,9 +1,8 @@
-package com.ll.MOIZA.boundedContext.room.entity;
+package com.ll.moizatimecalculator.boundedContext.room.entity;
 
-import com.ll.MOIZA.base.entity.BaseEntity;
-import com.ll.MOIZA.boundedContext.member.entity.Member;
-import com.ll.MOIZA.boundedContext.selectedPlace.entity.SelectedPlace;
-import com.ll.MOIZA.boundedContext.selectedTime.entity.SelectedTime;
+import com.ll.moizatimecalculator.base.entity.BaseEntity;
+import com.ll.moizatimecalculator.boundedContext.member.entity.Member;
+import com.ll.moizatimecalculator.boundedContext.selectedTime.entity.SelectedTime;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
@@ -29,8 +28,4 @@ public class EnterRoom extends BaseEntity {
     @ToString.Exclude
     @Builder.Default
     private List<SelectedTime> selectedTimes = new ArrayList<>();
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "enterRoom", cascade = CascadeType.ALL)
-    @ToString.Exclude
-    @Builder.Default
-    private List<SelectedPlace> selectedPlaces = new ArrayList<>();
 }

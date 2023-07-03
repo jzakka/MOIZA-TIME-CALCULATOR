@@ -1,8 +1,8 @@
-package com.ll.MOIZA.boundedContext.selectedTime.repository;
+package com.ll.moizatimecalculator.boundedContext.selectedTime.repository;
 
-import com.ll.MOIZA.boundedContext.room.entity.EnterRoom;
-import com.ll.MOIZA.boundedContext.room.entity.Room;
-import com.ll.MOIZA.boundedContext.selectedTime.entity.SelectedTime;
+import com.ll.moizatimecalculator.boundedContext.room.entity.EnterRoom;
+import com.ll.moizatimecalculator.boundedContext.room.entity.Room;
+import com.ll.moizatimecalculator.boundedContext.selectedTime.entity.SelectedTime;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

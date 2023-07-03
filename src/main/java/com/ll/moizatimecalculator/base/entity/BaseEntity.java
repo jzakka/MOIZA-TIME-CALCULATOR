@@ -1,4 +1,4 @@
-package com.ll.MOIZA.base.entity;
+package com.ll.moizatimecalculator.base.entity;
 
 
 import jakarta.persistence.EntityListeners;

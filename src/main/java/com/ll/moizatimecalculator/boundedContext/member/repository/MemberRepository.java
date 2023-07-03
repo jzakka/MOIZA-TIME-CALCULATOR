@@ -1,6 +1,7 @@
-package com.ll.MOIZA.boundedContext.member.repository;
+package com.ll.moizatimecalculator.boundedContext.member.repository;
 
-import com.ll.MOIZA.boundedContext.member.entity.Member;
+
+import com.ll.moizatimecalculator.boundedContext.member.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
