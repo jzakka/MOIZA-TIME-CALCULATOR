@@ -19,7 +19,7 @@ public class SelectedTimeController {
     private final RoomService roomService;
 
 
-    @GetMapping("/selected-time/{roomId}")
+    @GetMapping("/room/{roomId}/selected-time")
     public List<TimeRangeWithMember> overlappingTimes(@PathVariable Long roomId){
         Room room = roomService.getRoom(roomId);
         return selectedTimeService.findOverlappingTimeRanges(room);
